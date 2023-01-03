@@ -33,7 +33,7 @@ const ProductList = ({ product }) => {
     <div className="product__item" style={cumtomStyle}>
       <div className="product__info">
         <span>{product.name}</span>
-        <span>{product.price}</span>
+        <span>${product.price}</span>
       </div>
       <button
         className={`${isInCart ? "cancel" : "order-btn"}`}
